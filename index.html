@@ -8,15 +8,25 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #0051ff, #000428);
-      color: white;
+      background-color: #ffffff;
+      color: #000000;
       text-align: center;
-      padding: 60px 20px;
+      padding: 40px 20px;
     }
 
     .logo {
-      width: 100px;
+      width: 30%;
+      max-width: 160px;
+      min-width: 100px;
+      height: auto;
       margin-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        width: 50%;
+        max-width: 120px;
+      }
     }
 
     h1 {
@@ -25,17 +35,19 @@
       font-weight: normal;
     }
 
-    .main-button, .download-button {
+    .main-button,
+    .download-button {
       background-color: #3b4fff;
       color: white;
       padding: 14px 28px;
       font-size: 16px;
-      border: 1px solid white;
+      border: none;
       border-radius: 8px;
       cursor: pointer;
       margin-bottom: 20px;
       text-decoration: none;
       display: inline-block;
+      width: 240px;
     }
 
     .contact-text {
@@ -48,6 +60,7 @@
       display: flex;
       justify-content: center;
       gap: 30px;
+      flex-wrap: wrap;
     }
 
     .social-icons a img {
@@ -63,7 +76,7 @@
 </head>
 <body>
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mitsui_%26_Co._logo.svg/2560px-Mitsui_%26_Co._logo.svg.png" alt="Mitsui Logo" class="logo" />
+  <img src="https://raw.githubusercontent.com/MLCI-QRCode/qrcode-mitsui/main/mitsui.jfif" alt="Mitsui Logo" class="logo" />
 
   <h1>MITSUI LEASING</h1>
 
