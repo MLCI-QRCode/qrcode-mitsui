@@ -1,2 +1,2 @@
 # qrcode-mitsui
-QRCode untuk kebutuhan mitsui Operation
+QRCode untuk HINO
